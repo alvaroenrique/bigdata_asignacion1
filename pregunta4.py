@@ -14,6 +14,7 @@ def main():
         result[data[b'data:Platform']] = total
     print(result)
     print("-----> ")
+    # Se obtiene el valor máximo del diccionario
     print(max(result.items(), key=operator.itemgetter(1))[0])
 
 if __name__ == "__main__":
